@@ -29,3 +29,5 @@ permit_resource contains permit if {
     # and permit will be any of the objects containing the key resource
     some permit in data.permissions[role]
 }
+
+token = io.jwt.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJyZXNvdXJjZSI6eyJ0eXBlIjoic2hvdyIsInNjb3BlIjoicmF0ZSJ9fQ.G1eGrl4GuHSHj2NP-nnwgV1NlJWDl88DHUbmUhwgjXw")
