@@ -1,5 +1,3 @@
 {
-    "user": "Alice",
-    "action": "review",
-    "type": "show"
+    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkJvYiIsImlhdCI6MTUxNjIzOTAyMiwicmVzb3VyY2UiOnsidHlwZSI6InNob3ciLCJzY29wZSI6InJhdGUifX0.z8jDnPUaxsnCehodoq3aAr4znK57FV80GDTXSlGxgFE"
 }
