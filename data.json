@@ -1,0 +1,58 @@
+{
+    "roles": {
+        "Alice": [
+            "admin"
+        ],
+        "Bob": [
+            "guest"
+        ],
+        "Darth": [
+            "content-writer",
+            "moderator"
+        ]
+    },
+    "permissions": {
+        "guest":[
+            {
+                "resource": {
+                    "type": "show",
+                    "scope": "rate"
+                }
+            },
+            {
+                "resource": {
+                    "type": "show",
+                    "scope": "review"
+                }
+            },
+            {
+                "resource": {
+                    "type": "comic",
+                    "scope": "rate"
+                }
+            }
+        ],
+        "content-writer": [
+            {
+                "resource": {
+                    "type": "show",
+                    "scope": "add"
+                }
+            }
+        ],
+        "moderator": [
+            {
+                "resource": {
+                    "type": "comment",
+                    "scope": "remove"
+                }
+            },
+            {
+                "resource": {
+                    "type": "review",
+                    "scope": "remove"
+                }
+            }
+        ]   
+    }
+}
